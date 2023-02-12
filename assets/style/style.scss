@@ -1,0 +1,103 @@
+@import './fonts';
+@import './color';
+
+body {
+    background: $bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.img2:hover {
+    content: url('../images/icon-view.svg');
+    background: #2fd7e0;
+    opacity: 0.5;
+    cursor: pointer;
+    background-size: cover;
+    transition: 0.2ms;
+
+
+}
+
+.container {
+    background: $color-container;
+    width: 319px;
+    height: 540px;
+    margin-top: 6rem;
+    border-radius: 0.9rem;
+
+
+}
+
+
+img {
+    width: 276px;
+    height: 278px;
+    border-radius: 1rem;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.details {
+    // background-color: gold;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.paragraph {
+    color: #8398bc;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.nft-details {
+    // background-color: red;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 13px;
+        height: 13px;
+
+    }
+
+    .price-nft {
+        color: #2fd7e0;
+        margin-left: 42px;
+        margin-top: -18px;
+        white-space: nowrap;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .left-side {
+        padding: 5px;
+        margin-left: -17px;
+    }
+
+    .date-nft {
+        color: #fff;
+        margin-left: 42px;
+        margin-top: -9px;
+    }
+
+    .right img {
+        margin-bottom: -10px;
+    }
+ 
+}
+.line{
+    margin: 18px 0px 18px 0px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-top: 1px;
+  }
